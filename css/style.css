@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.picdiv{
+    background-image: url(/images/Front4x8x4_channel_Evita_Ashtry\ 1.png);
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100%;
+    height: 60rem;
+    object-fit: cover;
+    position: relative;
+    /* background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)); */
+}
+.shop{
+    position: absolute;
+    z-index: 100;
+}
+.chat{
+    position: absolute;
+    z-index: 100;
+}
+.gray{
+    position: absolute;
+    background: #161618;
+    height: 60rem;
+}
+.colhead{
+    /* height: 50rem;
+    width: 50%; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.colhead h1{
+color: #FFF;
+font-family: Playfair Display;
+font-size: 55px;
+font-style: normal;
+font-weight: 600;
+ position: absolute;
+ z-index: 100;
+ margin-top: 200px;
+}
+.colhead h3{
+position: absolute;
+ z-index: 100;
+ top: 30%;
+}
+.Banner_txt{
+    position: absolute;
+    top:30%;
+    left:0;
+}
+  
+.logo{
+    width: 80px;
+}
+.nav-list li a{
+    color: #FFF !important;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100px;
+}
+.nav-list  li{
+    margin: 10px;
+}
+@media only screen and (min-width:320px) and (max-width:992px){
+    .nav-list  li{
+        margin:0px;
+    }
+}
+/* @media only screen  and (min-width:320px)and(max-width:576px){
+    .Banner_txt{
+        margin-top: 3rem;
+    }
+
+} */
+.icon{
+    color: white;
+    /* margin: 10px; */
+    padding: 10px;
+    /* background-color: white; */
+}
+.tog{
+    border: none;
+
+}
+/* section1 */
+.colpic img{
+width: 25rem;
+    height: 24rem;
+    display: flex;
+}
+.coltext h1{
+color: #000;
+font-family: Roboto;
+/* font-size: 30px; */
+font-style: normal;
+font-weight: 500;
+}
+.coltext p{
+color: #333;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+/* section2 */
+.bg_img{
+    background-image: url(/images/redsofa.png);
+    height: 50rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.content{
+border-radius: 20px;
+background: linear-gradient(135deg, rgba(255, 255, 255, 0.30) 0%, rgba(217, 217, 217, 0.00) 100%);
+box-shadow: 5px 5px 10px 0px rgba(255, 255, 255, 0.10) inset, -5px -5px 10px 0px rgba(255, 255, 255, 0.10) inset;
+backdrop-filter: blur(22.5px);
+width: 22rem;
+height: 20rem;
+padding: 15px;
+color: #FFF;
+/* margin-top: 10px; */
+}
+/* .content h3{
+color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+} */
+/* .content p{
+color: #FFF;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+} */
+/* section3 */
+.bg_img1{
+    background-image: url(/images/IMG_2938\ 1.png);
+    height: 50rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+/* section4 */
+.bg_img2{
+    background-image: url(/images/F677C0EC-EAAC-457D-944D-FC17CDCC0BAD\ 1.png);
+    height: 50rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.work{
+    display: flex;
+    justify-content: center;
+}
+.work button{
+width: 200px;
+padding: 10px;
+}
+/* section5 */
+.row5{
+background-color: #F3F3F3;
+}
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}
+.google{
+    background-color:red;
+box-shadow: 5px 5px 10px 0px rgba(255, 255, 255, 0.10) inset, -5px -5px 10px 0px rgba(255, 255, 255, 0.10) inset;
+backdrop-filter: blur(22.5px);
+}
+.star{
+    color: yellow;
+}
+.m{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 12rem;
+    background-color: #3956cb;
+    height: 45px;
+    width: 3rem;
+
+}
+/* .m h6{
+    margin-bottom: 0;
+    width: 43px;
+} */
+.murad{
+    padding: 15px;
+}
+/* section6 */
+/* .frontend::after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 300px;
+    background-color: black;
+    border: dotted;
+    border-radius: 30px;
+    margin-bottom: 30px;
+} */
+/* section7 */
+.row7{
+    display: flex;
+    justify-content: center;
+}
+/* section8 */
+.FAQ{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.accor::after{
+    background-color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    width: 47px;
+    height: 40px;
+}
+/* section9 */
+.smlogo{
+    width: 64px;
+    margin: 5px
+}
+.booth{
+color: #000;
+font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+margin-bottom: 0px;
+}
+.follower
+{
+    font-size: 10px;
+}
+/* section12 */
+.footer{
+    background-color: #151515;
+}
+.flogo{
+    width: 140px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.field{
+    width: 49rem;
+}
+.custom-unstyled-list {
+list-style: none;
+color: #FFF;
+font-family: Poppins;
+font-size: 15px;
+padding: 0;
+}
+.custom-unstyled-list li{
+    margin: 20px;
+}
+.contact{
+color: #FFF;
+font-family: Poppins;
+font-size: 25px;
+margin-bottom: 2rem;
+}
+.quick{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 25px; 
+    margin-bottom: 2rem;
+}
+.RESERVED{
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 15px;
+font-weight: 500;
+}
+.term{
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 10px;
+font-weight: 400;
+}
+/* section10 */
+.section_content
+{
+    justify-content: space-between !important;
+}
+
+@media screen and (max-width:768px){
+.card{
+margin-top:10px;
+}
+}
